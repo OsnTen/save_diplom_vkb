@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkListStore" id="liststore_backups">
+    <columns>
+      <!-- column-name gchararray -->
+      <column type="gchararray"/>
+      <!-- column-name gchararray1 -->
+      <column type="gchararray"/>
+      <!-- column-name gchararray2 -->
+      <column type="gchararray"/>
+      <!-- column-name gchararray3 -->
+      <column type="gchararray"/>
+      <!-- column-name gchararray4 -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0">Backup1</col>
+        <col id="1">Нет</col>
+        <col id="2">1</col>
+        <col id="3">2023-01-01 12:00:00</col>
+        <col id="4">checksum1</col>
+      </row>
+      <row>
+        <col id="0">Backup2</col>
+        <col id="1">Кузнечик</col>
+        <col id="2">3</col>
+        <col id="3">2023-02-01 14:30:00</col>
+        <col id="4">checksum2</col>
+      </row>
+      <row>
+        <col id="0">Backup3</col>
+        <col id="1">Магма</col>
+        <col id="2">5</col>
+        <col id="3">2023-03-01 16:45:00</col>
+        <col id="4">checksum3</col>
+      </row>
+      <row>
+        <col id="0">Backup4</col>
+        <col id="1">Нет</col>
+        <col id="2">2</col>
+        <col id="3">2023-04-01 18:20:00</col>
+        <col id="4">checksum4</col>
+      </row>
+      <row>
+        <col id="0">Backup5</col>
+        <col id="1">Кузнечик</col>
+        <col id="2">4</col>
+        <col id="3">2023-05-01 20:15:00</col>
+        <col id="4">checksum5</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkWindow" id="window_backups">
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Список резервных копий</property>
+    <property name="default-width">600</property>
+    <property name="default-height">200</property>
+    <property name="icon">assets\logo.svg</property>
+    <child>
+      <object class="GtkScrolledWindow" id="scrolledwindow_backups">
+        <property name="visible">True</property>
+        <property name="can-focus">True</property>
+        <property name="shadow-type">in</property>
+        <child>
+          <object class="GtkTreeView" id="treeview_backups">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="model">liststore_backups</property>
+            <child internal-child="selection">
+              <object class="GtkTreeSelection"/>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="treeviewcolumn_name">
+                <property name="title" translatable="yes">Название</property>
+                <child>
+                  <object class="GtkCellRendererText"/>
+                  <attributes>
+                    <attribute name="text">0</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="treeviewcolumn_crypto">
+                <property name="title" translatable="yes">Защита</property>
+                <child>
+                  <object class="GtkCellRendererText"/>
+                  <attributes>
+                    <attribute name="text">1</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="treeviewcolumn_zstd">
+                <property name="title" translatable="yes">Сжатие</property>
+                <child>
+                  <object class="GtkCellRendererText"/>
+                  <attributes>
+                    <attribute name="text">2</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn" id="treeviewcolumn_time">
+                <property name="title" translatable="yes">Дата</property>
+                <child>
+                  <object class="GtkCellRendererText"/>
+                  <attributes>
+                    <attribute name="text">3</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkTreeViewColumn">
+                <property name="title" translatable="yes">Контрольная сумма</property>
+                <child>
+                  <object class="GtkCellRendererText"/>
+                  <attributes>
+                    <attribute name="text">4</attribute>
+                  </attributes>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
