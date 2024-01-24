@@ -1,0 +1,92 @@
+Download
+********
+
+Preferable way is to download tarball with the signature from website
+and, for example, run tests with benchmarks:
+
+     $ [fetch|wget] http://www.gogost.cypherpunks.ru/gogost-5.13.0.tar.zst
+     $ [fetch|wget] http://www.gogost.cypherpunks.ru/gogost-5.13.0.tar.zst.{asc,sig}
+     [verify signature]
+     $ zstd -d gogost-5.13.0.tar.zst | tar xf -
+     $ cd gogost-5.13.0
+     $ go build -mod=vendor -o streebog256 ./cmd/streebog256
+     $ echo hello world | ./streebog256
+     f72018189a5cfb803dbe1f2149cf554c40093d8e7f81c21e08ac5bcd09d9934d
+
+   You can obtain releases source code prepared tarballs on
+<http://www.gogost.cypherpunks.ru/>.
+
+   And then you can include its source code in your project for example
+like this:
+
+     $ mkdir -p myproj/vendor/go.cypherpunks.ru/gogost
+     $ mv gogost-5.13.0 myproj/vendor/go.cypherpunks.ru/gogost/v5
+     $ cd myproj
+     $ cat > main.go <<EOF
+     package main
+
+     import (
+         "encoding/hex"
+         "fmt"
+
+         "go.cypherpunks.ru/gogost/v5/gost34112012256"
+     )
+
+     func main() {
+         h := gost34112012256.New()
+         h.Write([]byte("hello world\n"))
+         fmt.Println(hex.EncodeToString(h.Sum(nil)))
+     }
+     EOF
+     $ go run main.go
+     f72018189a5cfb803dbe1f2149cf554c40093d8e7f81c21e08ac5bcd09d9934d
+
+   You *have to* verify downloaded tarballs authenticity to be sure that
+you retrieved trusted and untampered software.  There are two options:
+
+OpenPGP (https://www.openpgp.org/) '.asc' signature
+     Use GNU Privacy Guard (https://www.gnupg.org/) free software
+     implementation.  For the very first time it is necessary to get
+     signing public key and import it.  It is provided here
+     (PUBKEY-PGP.asc), but you should check alternate resources.
+
+     pub   rsa2048/0x82343436696FC85A 2016-09-13
+           CEBD 1282 2C46 9C02 A81A  0467 8234 3436 696F C85A
+     uid   GoGOST releases <gogost at cypherpunks dot ru>
+
+          $ gpg --auto-key-locate dane --locate-keys gogost at cypherpunks dot ru
+          $ gpg --auto-key-locate  wkd --locate-keys gogost at cypherpunks dot ru
+
+OpenSSH (https://www.openssh.com/) '.sig' signature
+     Public key (PUBKEY-SSH.pub) and its OpenPGP signature
+     (PUBKEY-SSH.pub.asc) made with the key above.  Its fingerprint:
+     'SHA256:u8X9rPDOhxpyzGs/IugbxXbDeOu/0AttKY+LGAvHBH0'.
+
+          $ ssh-keygen -Y verify -f PUBKEY-SSH.pub -I gogost@cypherpunks.ru -n file \
+              -s gogost-5.13.0.tar.zst.sig < gogost-5.13.0.tar.zst
+
+   GoGOST is also 'go get'-able.  For example to install 'streebog256'
+utility:
+
+     $ go install go.cypherpunks.ru/gogost/v5/cmd/streebog256@latest
+
+   Aware that 'go.cypherpunks.ru' uses ca.cypherpunks.ru
+(//www.ca.cypherpunks.ru) X.509 certificate authority.
+
+   * Go's default 'proxy.golang.org' and 'sum.golang.org' services won't
+     be able to verify 'go.cypherpunks.ru''s TLS authenticity, because
+     there are no common trust anchors.  You can skip their usage by
+     setting '$GOPRIVATE=go.cypherpunks.ru'.
+
+   * You can (temporarily) override CA bundle during installation with
+     '$SSL_CERT_FILE' environment variable.
+
+   * You can unpack tarball somewhere and use 'replace' command in your
+     local 'go.mod':
+
+          require go.cypherpunks.ru/gogost/v5 v5.13.0
+          replace go.cypherpunks.ru/gogost/v5 => /path/to/gogost-5.13.0
+
+   You can obtain development source code with 'git clone
+git://git.cypherpunks.ru/gogost.git' (also you can use
+<https://git.cypherpunks.ru/gogost.git>).
