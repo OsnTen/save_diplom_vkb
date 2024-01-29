@@ -1,0 +1,6 @@
+#!/bin/sh
+
+find . -name "*.bash" -exec perl -i -npe 's%^#!/usr/bin/env bash%#!/bin/sh%' {} \+
+find . -name "*.bash" -exec perl -i -npe 's%^#!/bin/bash%#!/bin/sh%' {} \+
+find . -name "*.bash" -exec perl -i -npe 's%^bash %sh %' {} \+
+perl -i -npe "s/ulimit/echo --/g" src/run.bash

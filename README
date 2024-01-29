@@ -1,0 +1,27 @@
+This is a fork of Go with:
+
+* crypto/x509 supporting GOST 34.10-2012
+  X.509 certificates and PKCS#8 private keys
+* crypto/tls supporting GOST TLS 1.3
+
+GOST-related crypto/tls.SignatureSchemes are not enabled by default,
+simply because it will fail native unittests. crypto/tls also does not
+provide ability to control TLS 1.3 CipherSuite choice and GOST-related
+suites are not enabled by default too. You can use tls.GOSTInstall() for
+enabling all of that.
+
+Pay attention that:
+
+* GOST X.509 certificates uses reversed digest (relatively to native
+  gogost/gost3410 output) during signing, so you should use
+  gogost/gost3410.PrivateKeyReverseDigest crypto.Signer
+* GOST TLS 1.3 uses both reversed digest and signature values, so you
+  should use gogost/gost3410.PrivateKeyReverseDigestAndSignature in that case
+* GoGOST is quite slow, do not expect high performance
+
+Look at src/crypto/x509/x509_test.go and src/crypto/tls/gost_test.go
+for example usage.
+
+./gogost-install script helps installing GoGOST directly into Go's
+source code tree. Then build Go with ordinary steps. Some unittests,
+related to dependency checks, will fail as expected.
