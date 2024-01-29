@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a17ef723-8276-482b-b026-b978f4fb802a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/archive/tar/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/archive/tar/writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/arena/arena.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/arena/arena.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/bootstrap.bash" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/bootstrap.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/bufio/bufio.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/bufio/bufio.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/bufio/bufio_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/bufio/bufio_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/bytes/buffer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/bytes/buffer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/bytes/bytes.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/bytes/bytes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/bytes/bytes_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/bytes/bytes_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/addr2line/addr2line_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/addr2line/addr2line_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/gcc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/gcc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/cgotest/overlaydir.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/cgotest/overlaydir.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/test/callback.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/test/callback.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testcshared/cshared_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testcshared/cshared_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testerrors/ptr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testerrors/ptr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testgodefs/testgodefs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testgodefs/testgodefs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testplugin/plugin_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testplugin/plugin_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testsanitizers/libfuzzer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testsanitizers/libfuzzer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testsanitizers/testdata/msan4.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testsanitizers/testdata/msan4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testshared/shared_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/internal/testshared/shared_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/out.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cgo/out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/abi/abiutils.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/abi/abiutils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/abt/avlint32.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/abt/avlint32.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/base/flag.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/base/flag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/base/hashdebug.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/base/hashdebug.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/devirtualize/pgo.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/devirtualize/pgo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/escape/call.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/escape/call.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/gc/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/gc/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/importer/gcimporter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/importer/gcimporter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/inline/inl.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/inline/inl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/copy.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/copy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/fmt.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/fmt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/mknode.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/mknode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/name.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/name.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/visit.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ir/visit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/liveness/arg.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/liveness/arg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/liveness/plive.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/liveness/plive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/logopt/log_opts.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/logopt/log_opts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/logopt/logopt_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/logopt/logopt_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/loopvar/loopvar.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/loopvar/loopvar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/noder/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/noder/helpers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/noder/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/noder/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/noder/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/noder/writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/objw/prog.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/objw/prog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/pgo/internal/graph/graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/pgo/internal/graph/graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/pgo/irgraph.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/pgo/irgraph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/reflectdata/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/reflectdata/helpers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/reflectdata/reflect.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/reflectdata/reflect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/s390x/ggen.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/s390x/ggen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/386Ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/386Ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/AMD64Ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/AMD64Ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/ARM64Ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/ARM64Ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/ARMOps.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/ARMOps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/LOONG64Ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/LOONG64Ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/MIPS64Ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/MIPS64Ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/MIPSOps.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/MIPSOps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/PPC64Ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/PPC64Ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/RISCV64Ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/RISCV64Ops.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/S390XOps.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/S390XOps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/genericOps.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/genericOps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/rulegen.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/_gen/rulegen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/copyelim.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/copyelim.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/copyelim_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/copyelim_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/deadstore.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/deadstore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/debug.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/debug.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/debug_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/debug_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/expand_calls.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/expand_calls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/flagalloc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/flagalloc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/fuse.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/fuse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/op.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/op.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/phielim.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/phielim.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/phiopt.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/phiopt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/regalloc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/regalloc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/rewrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/rewrite.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/rewrite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/rewrite_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/tighten.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/tighten.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/tuple.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/tuple.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/writebarrier.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssa/writebarrier.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssagen/phi.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssagen/phi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssagen/ssa.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/ssagen/ssa.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/staticdata/data.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/staticdata/data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/staticinit/sched.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/staticinit/sched.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/test/testdata/gen/copyGen.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/test/testdata/gen/copyGen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/typecheck/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/typecheck/func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/typecheck/universe.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/typecheck/universe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/builtins.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/builtins.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/builtins_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/builtins_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/gccgosizes.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/gccgosizes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/infer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/infer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/initorder.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/initorder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/instantiate.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/instantiate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/labels.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/labels.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/sizes_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/sizes_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/subst.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/subst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/universe.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/types2/universe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/assign.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/assign.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/builtin.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/builtin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/complit.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/complit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/expr.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/expr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/order.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/order.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/range.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/range.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/stmt.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/compile/internal/walk/stmt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/covdata/metamerge.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/covdata/metamerge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/cover/cover.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/cover/cover.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/buildtool.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/buildtool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/quoted.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/quoted.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/dist/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/distpack/archive.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/distpack/archive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/distpack/pack.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/distpack/pack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/fix/typecheck.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/fix/typecheck.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/alldocs.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/alldocs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/go_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/go_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/base/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/base/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/cfg/cfg.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/cfg/cfg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/envcmd/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/envcmd/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/fsys/fsys.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/fsys/fsys.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/generate/generate.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/generate/generate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/get/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/get/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/help/helpdoc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/help/helpdoc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/imports/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/imports/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/list/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/load/pkg.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/load/pkg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/load/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/load/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modcmd/vendor.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modcmd/vendor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modcmd/verify.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modcmd/verify.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/codehost/codehost.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/codehost/codehost.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/codehost/git.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/codehost/git.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/fetch.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/fetch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modfetch/repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modget/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modget/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/build_read.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/build_read.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/syslist.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/syslist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/syslist_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modindex/syslist_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modinfo/info.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modinfo/info.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modload/buildlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modload/buildlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modload/load.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/modload/load.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/script/cmds.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/script/cmds.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/script/state.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/script/state.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/toolchain/select.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/toolchain/select.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/vcs/vcs.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/vcs/vcs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/web/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/web/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/action.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/action.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/buildid.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/buildid.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/work/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/workcmd/use.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/go/internal/workcmd/use.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/gofmt/long_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/gofmt/long_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/gofmt/rewrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/gofmt/rewrite.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/bootstrap_test/overlaydir_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/bootstrap_test/overlaydir_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/buildid/rewrite.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/buildid/rewrite.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/dwarf/dwarf.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/dwarf/dwarf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/moddeps/moddeps_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/moddeps/moddeps_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/notsha256/sha256.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/notsha256/sha256.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/a.out.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/a.out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/asm5.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/asm5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/list5.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/list5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/obj5.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm/obj5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/a.out.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/a.out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/asm7.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/asm7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/list7.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/list7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/obj7.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/arm64/obj7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/data.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ld.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ld.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/link.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/link.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/a.out.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/a.out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/asm0.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/asm0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/list0.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/list0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/obj0.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/mips/obj0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/objfile.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/objfile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/pass.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/pass.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/a.out.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/a.out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/asm9.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/asm9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/list9.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/list9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/obj9.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/ppc64/obj9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/riscv/cpu.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/riscv/cpu.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/riscv/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/riscv/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/a.out.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/a.out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/asmz.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/asmz.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/listz.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/listz.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/objz.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/s390x/objz.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/sym.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/sym.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/a.out.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/a.out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/asm6.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/asm6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/list6.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/list6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/obj6.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/obj/x86/obj6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/autotype.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/autotype.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/head.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/head.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/reloctype.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/reloctype.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/symkind.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/objabi/symkind.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/src/pos.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/src/pos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/testdir/testdir_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/internal/testdir/testdir_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/amd64/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/amd64/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/amd64/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/amd64/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/amd64/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/amd64/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm64/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm64/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm64/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm64/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm64/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/arm64/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/ar.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/ar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/data.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/ld.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/ld.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/lib.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/lib.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/link.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/link.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/macho_combine_dwarf.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/macho_combine_dwarf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/outbuf.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/outbuf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/outbuf_mmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/outbuf_mmap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/outbuf_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/outbuf_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/sym.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/sym.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/symtab.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/symtab.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/xcoff.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ld/xcoff.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loadelf/ldelf.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loadelf/ldelf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loader/loader.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loader/loader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loader/symbolbuilder.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loader/symbolbuilder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loadmacho/ldmacho.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/loadmacho/ldmacho.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips64/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips64/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips64/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips64/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips64/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/mips64/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ppc64/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ppc64/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ppc64/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ppc64/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ppc64/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/ppc64/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/s390x/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/s390x/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/s390x/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/s390x/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/s390x/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/s390x/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/sym/segment.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/sym/segment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/sym/symkind.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/sym/symkind.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/x86/asm.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/x86/asm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/x86/l.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/x86/l.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/x86/obj.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/link/internal/x86/obj.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/cmd/trace/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/cmd/trace/trace.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/compress/bzip2/move_to_front.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/compress/bzip2/move_to_front.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/deflate.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/deflate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/dict_decoder.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/dict_decoder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/dict_decoder_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/dict_decoder_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/huffman_bit_writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/huffman_bit_writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/inflate.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/compress/flate/inflate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/compress/lzw/writer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/compress/lzw/writer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/container/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/container/list/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/context/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/context/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/aes/asm_s390x.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/aes/asm_s390x.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/cipher/cbc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/cipher/cbc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/ecdh/ecdh.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/ecdh/ecdh.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/ecdsa/ecdsa_s390x.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/ecdsa/ecdsa_s390x.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/ecdsa/equal_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/ecdsa/equal_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/hmac/hmac.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/hmac/hmac.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/bigmod/nat.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/bigmod/nat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/build-goboring.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/build-goboring.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/hmac.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/hmac.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/rsa.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/rsa.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/sha.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/boring/sha.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/edwards25519/scalar.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/edwards25519/scalar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/nistec/fiat/generate.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/nistec/fiat/generate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/nistec/p256_asm_ppc64le.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/nistec/p256_asm_ppc64le.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/nistec/p256_asm_s390x.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/internal/nistec/p256_asm_s390x.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/md5/md5.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/md5/md5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/md5/md5block_arm.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/md5/md5block_arm.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha1/sha1.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha1/sha1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha1/sha1block_amd64.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha1/sha1block_amd64.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha256/sha256.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha256/sha256.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha256/sha256block_amd64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha256/sha256block_amd64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha512/sha512.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/sha512/sha512.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/conn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/gost.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/gost.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/handshake_client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/handshake_client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/handshake_server_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/handshake_server_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/tls.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/tls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/tls_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/tls/tls_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/cert_pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/cert_pool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/internal/macos/corefoundation.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/internal/macos/corefoundation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/pem_decrypt.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/pem_decrypt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/root_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/root_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/x509.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/crypto/x509/x509.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/database/sql/convert.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/database/sql/convert.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/database/sql/convert_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/database/sql/convert_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/database/sql/sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/database/sql/sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/debug/dwarf/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/debug/dwarf/entry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/debug/dwarf/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/debug/dwarf/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/debug/gosym/symtab.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/debug/gosym/symtab.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/debug/macho/macho.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/debug/macho/macho.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/debug/pe/section.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/debug/pe/section.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/ascii85/ascii85.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/ascii85/ascii85.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/csv/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/csv/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/encoding.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/encoding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/gob/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/gob/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/json/decode.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/json/decode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/json/encode.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/json/encode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/json/stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/json/stream.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/pem/pem.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/pem/pem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/xml/read.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/xml/read.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/encoding/xml/xml.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/encoding/xml/xml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/fmt/scan.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/fmt/scan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/build/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/build/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/doc/comment/parse.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/doc/comment/parse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/doc/example.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/doc/example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/doc/exports.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/doc/exports.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/doc/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/doc/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/format/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/format/format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/internal/gcimporter/gcimporter_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/internal/gcimporter/gcimporter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/builtins.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/builtins.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/builtins_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/builtins_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/call.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/call.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/gccgosizes.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/gccgosizes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/infer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/infer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/initorder.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/initorder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/instantiate.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/instantiate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/labels.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/labels.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/sizes_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/sizes_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/subst.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/subst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/go/types/universe.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/go/types/universe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/html/entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/html/entity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/html/escape_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/html/escape_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/html/template/clone_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/html/template/clone_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/html/template/escape.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/html/template/escape.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/html/template/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/html/template/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/color/ycbcr.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/color/ycbcr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/draw/draw.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/draw/draw.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/draw/draw_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/draw/draw_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/gif/reader_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/gif/reader_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/gif/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/gif/writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/gif/writer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/gif/writer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/internal/imageutil/gen.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/internal/imageutil/gen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/internal/imageutil/impl.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/internal/imageutil/impl.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/image/jpeg/fdct.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/image/jpeg/fdct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/index/suffixarray/sais.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/index/suffixarray/sais.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/index/suffixarray/sais2.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/index/suffixarray/sais2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/abi/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/abi/map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/coverage/pkid.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/coverage/pkid.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/fuzz/mem.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/fuzz/mem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/fuzz/pcg.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/fuzz/pcg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/fuzz/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/fuzz/worker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/goexperiment/flags.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/goexperiment/flags.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/pkgbits/decoder.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/pkgbits/decoder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/platform/supported.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/platform/supported.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/fd_wasip1.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/fd_wasip1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/sendfile_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/sendfile_bsd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/sendfile_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/sendfile_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/sendfile_solaris.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/sendfile_solaris.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/splice_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/poll/splice_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/profile/profile.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/profile/profile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/reflectlite/value.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/reflectlite/value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/syscall/windows/registry/key.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/syscall/windows/registry/key.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/testenv/testenv.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/testenv/testenv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/trace/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/trace/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/types/errors/codes.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/types/errors/codes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/check/builtins0.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/check/builtins0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/check/builtins1.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/check/builtins1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/check/gotos.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/check/gotos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/examples/methods.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/types/testdata/examples/methods.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/internal/zstd/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/internal/zstd/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/io/fs/readfile.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/io/fs/readfile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/io/io.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/io/io.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/log/slog/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/log/slog/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/log/slog/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/log/slog/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/log/slog/internal/benchmarks/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/log/slog/internal/benchmarks/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/log/slog/record.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/log/slog/record.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/log/slog/record_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/log/slog/record_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/maps/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/maps/maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/acosh.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/acosh.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/asinh.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/asinh.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/atanh.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/atanh.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_arm.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_arm.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_arm64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_arm64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_ppc64x.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_ppc64x.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_s390x.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_s390x.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/arith_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/float.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/float.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/int.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/int.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/nat.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/nat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/natconv.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/natconv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/natdiv.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/natdiv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/big/rat.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/big/rat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/cbrt.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/cbrt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/erf.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/erf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/exp.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/exp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/expm1.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/expm1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/floor_amd64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/floor_amd64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/j0.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/j0.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/j1.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/j1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/jn.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/jn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/lgamma.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/lgamma.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/log1p.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/log1p.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/remainder.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/remainder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/math/sqrt.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/math/sqrt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/mime/multipart/formdata.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/mime/multipart/formdata.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/mime/multipart/multipart_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/mime/multipart/multipart_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/cgi/host.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/cgi/host.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/clientserver_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/clientserver_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/cookie.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/cookie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/fcgi/child.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/fcgi/child.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/h2_bundle.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/h2_bundle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/header.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/header.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/httptrace/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/httptrace/trace.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/dump.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/dump.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/dump_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/dump_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/reverseproxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/reverseproxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/reverseproxy_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/httputil/reverseproxy_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/request_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/request_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/requestwrite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/requestwrite_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/serve_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/serve_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/sniff_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/sniff_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/transfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/transfer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/http/transport_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/http/transport_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/iprawsock_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/iprawsock_posix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/net.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/net.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/netip/uint128.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/netip/uint128.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_linux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_linux_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/sendfile_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/splice_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/splice_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/tcpsock.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/tcpsock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/textproto/header.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/textproto/header.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/textproto/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/textproto/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/timeout_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/timeout_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/udpsock_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/udpsock_posix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/unixsock.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/unixsock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/net/url/url.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/net/url/url.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/env.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/env.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_plan9.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_plan9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_unix.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_unix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_windows_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/exec/exec_windows_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/file_plan9.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/file_plan9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/file_posix.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/file_posix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/pipe_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/pipe_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/readfrom_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/readfrom_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/readfrom_linux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/readfrom_linux_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/signal/signal.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/signal/signal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/timeout_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/timeout_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/os/user/lookup.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/os/user/lookup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/path/filepath/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/path/filepath/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/path/path.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/path/path.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/reflect/abi.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/reflect/abi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/reflect/all_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/reflect/all_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/reflect/export_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/reflect/export_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/reflect/makefunc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/reflect/makefunc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/reflect/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/reflect/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/reflect/value.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/reflect/value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/regexp/all_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/regexp/all_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/regexp/onepass.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/regexp/onepass.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/regexp/regexp.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/regexp/regexp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/regexp/syntax/parse.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/regexp/syntax/parse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/regexp/syntax/simplify.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/regexp/syntax/simplify.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/arena.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/arena.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/arena_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/arena_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_386.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_386.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_amd64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_amd64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_arm.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_arm.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_arm64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/asm_arm64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/cgo/handle.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/cgo/handle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/cgo/signal_ios_arm64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/cgo/signal_ios_arm64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/cgocheck.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/cgocheck.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/chan.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/chan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/cpuprof.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/cpuprof.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/debug/garbage.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/debug/garbage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/defer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/defer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/duff_s390x.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/duff_s390x.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/export_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/export_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/gc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/gc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/iface.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/iface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/internal/math/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/internal/math/math.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/malloc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/malloc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mbarrier.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mbarrier.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mbitmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mbitmap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memclr_arm.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memclr_arm.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memclr_arm64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memclr_arm64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_386.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_386.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_amd64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_amd64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_arm.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_arm.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_arm64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_arm64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_plan9_386.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_plan9_386.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_plan9_amd64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_plan9_amd64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_ppc64x.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_ppc64x.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/memmove_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/metrics.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/metrics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/metrics/histogram.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/metrics/histogram.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mgclimit.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mgclimit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mgcpacer.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mgcpacer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mheap.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mheap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mkduff.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mkduff.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mkfastlog2table.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mkfastlog2table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mranges.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mranges.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/msan.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/msan.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/mstats.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/mstats.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/panic.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/panic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/pinner.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/pinner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/pprof/runtime.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/pprof/runtime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/proc.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/proc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/runtime2.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/runtime2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/rwmutex.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/rwmutex.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/rwmutex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/rwmutex_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/sigqueue.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/sigqueue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/stack_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/stack_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/stubs.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/stubs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/sys_windows_arm64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/sys_windows_arm64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/syscall_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/syscall_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/testdata/testprogcgo/raceprof.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/testdata/testprogcgo/raceprof.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/trace.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/trace.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/traceback.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/traceback.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/vlop_386.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/vlop_386.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/vlop_arm.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/vlop_arm.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/runtime/vlrt.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/runtime/vlrt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/slices/slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/sort/sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/sort/sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/sort/sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/sort/sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/strconv/atoi.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/strconv/atoi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/strings/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/strings/builder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/strings/clone.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/strings/clone.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/strings/replace.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/strings/replace.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/strings/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/strings/strings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/strings/strings_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/strings/strings_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/sync/atomic/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/sync/atomic/example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/sync/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/sync/map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/sync/map_bench_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/sync/map_bench_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/sync/rwmutex.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/sync/rwmutex.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/sync/rwmutex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/sync/rwmutex_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/asm_plan9_386.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/asm_plan9_386.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/asm_plan9_amd64.s" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/asm_plan9_amd64.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/exec_pdeathsig_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/exec_pdeathsig_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/getdirentries_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/getdirentries_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/security_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/security_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/syscall_linux_accept.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/syscall_linux_accept.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/syscall_linux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/syscall_linux_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/syscall/syscall_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/syscall/syscall_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/testing/match_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/testing/match_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/testing/testing.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/testing/testing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/text/template/multi_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/text/template/multi_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/text/template/parse/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/text/template/parse/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/text/template/parse/parse.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/text/template/parse/parse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/text/template/parse/parse_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/text/template/parse/parse_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/text/template/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/text/template/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/time/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/time/format.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/time/time.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/time/time.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/time/tzdata/tzdata.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/time/tzdata/tzdata.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/src/time/zoneinfo_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/src/time/zoneinfo_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/codegen/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/codegen/slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/copy.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/copy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/copy1.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/copy1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/escape5.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/escape5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/escape_param.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/escape_param.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/bug491.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/bug491.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/bug512.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/bug512.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue27278.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue27278.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue32288.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue32288.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue40629.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue40629.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue4323.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue4323.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue44739.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue44739.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue7310.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue7310.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue8039.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue8039.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue8620.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/fixedbugs/issue8620.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/inline.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/inline.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/live.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/live.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/live_regabi.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/live_regabi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/makeslice.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/makeslice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/method.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/method.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/nilptr3.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/nilptr3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/noinit.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/noinit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/strcopy.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/strcopy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/issue48716.dir/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/issue48716.dir/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/list2.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/list2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/listimp2.dir/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/listimp2.dir/a.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/mapsimp.dir/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/mapsimp.dir/a.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/sets.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/sets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/setsimp.dir/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/setsimp.dir/a.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/sliceimp.dir/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/sliceimp.dir/a.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gost/gostls13/test/typeparam/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/gost/gostls13/test/typeparam/slices.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///snap/go/current" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gost/gostls13" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2b1hurdzoKToHGCb8corEwojf3U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.vendoring.notification.had.been.shown": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/oldprogger/Desktop/core/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build core">
+    <configuration name="go build core" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="core" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="PACKAGE" />
+      <package value="core" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build core/server" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="core" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="DIRECTORY" />
+      <package value="core/server" />
+      <directory value="$PROJECT_DIR$/server" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build core" />
+      <item itemvalue="Go Build.go build core/server" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/copy_db/copy_db.go</url>
+          <line>103</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
